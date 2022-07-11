@@ -20191,29 +20191,9 @@ code {
   transform: scale(1.1);
 }
 
-.card-people {
-  position: relative;
-  padding-top: 20px;
-}
-
-.card-people img {
+.card-people2 img {
   border-radius: 20px;
   width: 100%;
-}
-
-.card-people .weather-info {
-  position: absolute;
-  top: 30px;
-  right: 24px;
-}
-
-.card-people .weather-info sup {
-  font-size: 18px;
-}
-
-.card-people .weather-info .location {
-  font-size: 20px;
-  margin-bottom: 0;
 }
 
 .weather-info {

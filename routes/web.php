@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HouseController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master');
-});
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/kelolakos', [HouseController::class, 'index'])->name('kelola');
+
